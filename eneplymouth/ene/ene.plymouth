@@ -1,0 +1,13 @@
+[Plymouth Theme]
+Name=Ene theme
+Description=A kagerou Project theme developed by Logan Tann,The author of http://kagescan.esy.es/
+ModuleName=two-step
+
+[two-step]
+ImageDir=/usr/share/plymouth/themes/ene
+HorizontalAlignment=.5
+VerticalAlignment=.5
+Transition=none
+TransitionDuration=0.0
+BackgroundStartColor=0x181c2f
+BackgroundEndColor=0x181c2f

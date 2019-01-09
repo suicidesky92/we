@@ -1,0 +1,14 @@
+browser.sessionhistory.max_total_viewer = 0 # cache memory
+config.trim_on_minimize = true # add in booline
+browser.sessionhistory.max_entries = 10 # max views steps
+dom.popup_maximum = 2 #why more popups?
+network.http.redirection-limit = 5 # redirection limit
+network.http.max-connections = 500 # stearving on RAM
+browser.display.focus_ring_width = 0 # no punctir ads
+
+browser.cache.memory.enable = # use cache in RAM - true, not in RAM - false
+browser.cache.disk.enable = #use cache in HDD - true or false
+browser.cache.disk.capacity = # cache size in KB
+browser.download.lastDir.savePerSite # save on last dir
+nglayout.initialpaint.delay = 0 # show page before loading
+browser.sessionhistory.max_total_viewers = 10 # 512MB - 5 2GB - 10
