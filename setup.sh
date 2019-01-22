@@ -15,11 +15,11 @@ apt update
 apt dist-upgrade -y
 
 apt install -y openssh-server htop lm-sensors lxterminal vim mc wpasupplicant net-tools sudo
-apt install -y i3-wm openbox obmenu obconf tint2 conky lightdm xxkb wicd network-manager nitrogen volumeicon-alsa arandr x11-xkb-utils gpicview
+apt install -y i3-wm openbox obmenu obconf tint2 conky lightdm xxkb wicd network-manager nitrogen volumeicon-alsa arandr x11-xkb-utils gpicview i3lock-fancy i3lock
 apt install -y xarchiver pcmanfm xfce4-clipman compton gnome-screenshot suckless-tools surf lxappearance lxappearance-obconf gnome-calculator
 apt install -y firefox-esr evince libreoffice lightdm-gtk-greeter lightdm-gtk-greeter-settings
 apt install -y ./openbox-themes_1.0.2_all.deb
-
+apt install -y libxcb1-dev libxcb-keysyms1-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-xinerama0-dev libxcb-cursor-dev libpango1.0-dev libxcursor-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev libxcb-xrm-dev 
 
 #echo "cat /etc/passwd | grep 1000 | awk -F: '{print$1}'"
 #read -p 'Username to sudo: ' myuser
